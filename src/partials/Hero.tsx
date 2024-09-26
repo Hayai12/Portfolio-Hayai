@@ -10,6 +10,8 @@ import LinkedinLogo from '../../public/assets/networks/linkedin.svg';
 
 const Hero = () => (
   <Section>
+    {' '}
+    {/* Usa la propiedad id aquí */}
     <HeroAvatar
       title={
         <>
@@ -22,7 +24,10 @@ const Hero = () => (
           building fast and responsive web applications. I've worked on personal
           projects that showcase my skills in modern web development. Check out
           my{' '}
-          <a className="text-cyan-400 hover:underline" href="#projects">
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://github.com/Hayai12"
+          >
             projects
           </a>{' '}
           to see what I've created.
@@ -30,8 +35,8 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="h-80 rounded-full"
+          src="/assets/images/Joseph2.jpg"
           alt="Avatar image"
           loading="lazy"
         />
@@ -39,14 +44,14 @@ const Hero = () => (
       socialButtons={
         <>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://github.com/Hayai12"
             target="_blank"
             rel="noopener noreferrer"
           >
             <HeroSocial src={GithubLogo.src} alt="Github icon" />
           </a>
           <a
-            href="https://facebook.com/yourusername"
+            href="https://www.linkedin.com/in/joseph-uyana-15b038306/"
             target="_blank"
             rel="noopener noreferrer"
           >

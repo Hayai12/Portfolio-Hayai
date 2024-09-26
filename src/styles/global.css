@@ -4,3 +4,24 @@
   src: url('/src/assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
        url('/src/assets/fonts/SFUIDisplay-Regular.woff') format('woff');
 }
+
+/* src/styles/global.css */
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: url('/src/assets/fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+       url('/src/assets/fonts/SFUIDisplay-Regular.woff') format('woff');
+}
+
+/* Estilos globales */
+html {
+  background-color: white;
+  color: #333333; 
+  font-family: 'SFUIDisplay', sans-serif; 
+}
+
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+
