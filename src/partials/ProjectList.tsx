@@ -1,15 +1,9 @@
-import { GradientText, Section } from 'astro-boilerplate-components';
+import { Section } from 'astro-boilerplate-components';
 
 import BlogCard from './BlogCard';
 
 const ProjectList = () => (
-  <Section
-    title={
-      <>
-        Recent <GradientText>Projects</GradientText>
-      </>
-    }
-  >
+  <Section>
     <div className="flex flex-col gap-6">
       <BlogCard
         imageUrl="/assets/images/jamming.png"

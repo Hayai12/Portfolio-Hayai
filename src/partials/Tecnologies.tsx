@@ -77,7 +77,7 @@ const technologies = [
 ];
 
 const Technologies = () => (
-  <Section title="Technologies I Use">
+  <Section>
     <div className="flex flex-wrap justify-center">
       {technologies.map((tech) => (
         <a
