@@ -1,5 +1,3 @@
-import { Section } from 'astro-boilerplate-components';
-
 import AstroLogo from '../../public/assets/tecnologies/astro.svg';
 import CSSLogo from '../../public/assets/tecnologies/css.svg';
 import GitLogo from '../../public/assets/tecnologies/git.svg';
@@ -77,14 +75,14 @@ const technologies = [
 ];
 
 const Technologies = () => (
-  <Section>
-    <div className="flex flex-wrap justify-center">
+  <section id="technologies" className="mx-auto max-w-screen-lg px-3 py-6">
+    <div className="flex flex-wrap justify-center rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 p-5 text-white">
       {technologies.map((tech) => (
         <a
           key={tech.name}
           href={tech.link}
-          target="_blank" // Abre en una nueva pestaña
-          rel="noopener noreferrer" // Mejora la seguridad
+          target="_blank"
+          rel="noopener noreferrer"
           className="m-4 flex size-32 flex-col items-center justify-center rounded-md bg-white p-6 text-black shadow-md transition-transform hover:scale-105 hover:bg-gray-100" // Agregadas propiedades de transición y hover
         >
           {tech.icon}
@@ -94,7 +92,7 @@ const Technologies = () => (
         </a>
       ))}
     </div>
-  </Section>
+  </section>
 );
 
 export { Technologies };

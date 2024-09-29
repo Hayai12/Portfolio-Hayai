@@ -1,9 +1,7 @@
-import { Section } from 'astro-boilerplate-components';
-
 import BlogCard from './BlogCard';
 
 const ProjectList = () => (
-  <Section>
+  <section id="projects" className="mx-auto max-w-screen-lg px-3 py-6">
     <div className="flex flex-col gap-6">
       <BlogCard
         imageUrl="/assets/images/jamming.png"
@@ -17,7 +15,7 @@ const ProjectList = () => (
         imageUrl="/assets/images/reddit.png"
         title="Reddit-API"
         description="An engaging platform that connects to Reddit, allowing you to explore various subreddits and dive into trending posts based on your interests."
-        link="https://reddit-appi.netlify.app/" // Cambia este link por el correcto
+        link="https://reddit-appi.netlify.app/"
         tags={['React', 'Redux', 'Tailwind CSS', 'TypeScript']}
         date="3 months ago"
       />
@@ -25,12 +23,12 @@ const ProjectList = () => (
         imageUrl="/assets/images/Tetris.png"
         title="Tetris"
         description="A classic Tetris game that brings back nostalgia, challenging you to fit falling blocks together and clear lines for a high score."
-        link="https://tetris-hayai.netlify.app/" // Cambia este link por el correcto
+        link="https://tetris-hayai.netlify.app/"
         tags={['HTML', 'CSS', 'JavaScript']}
         date="8 months ago"
       />
     </div>
-  </Section>
+  </section>
 );
 
 export { ProjectList };

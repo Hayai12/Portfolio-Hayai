@@ -11,7 +11,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#about" // Cambiado a la sección About
+                    href="#about"
                   >
                     About
                   </a>
@@ -19,7 +19,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#education" // Cambiado a la sección Education
+                    href="#education"
                   >
                     Education
                   </a>
@@ -27,7 +27,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#projects" // Cambiado a la sección Projects
+                    href="#projects"
                   >
                     Projects
                   </a>
@@ -35,9 +35,17 @@ const Header = () => {
                 <li>
                   <a
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#technologies" // Cambiado a la sección Technologies
+                    href="#technologies"
                   >
                     Technologies
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-gray-500 transition hover:text-gray-500/75"
+                    href="#contact"
+                  >
+                    Contact Me
                   </a>
                 </li>
               </ul>

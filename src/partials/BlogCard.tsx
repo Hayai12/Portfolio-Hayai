@@ -2,7 +2,7 @@ import React from 'react';
 
 interface BlogCardProps {
   imageUrl: string;
-  date: string; // Se espera un formato legible como "2 months ago"
+  date: string;
   title: string;
   description: string;
   link: string;
@@ -34,9 +34,9 @@ const BlogCard: React.FC<BlogCardProps> = ({
   return (
     <a
       href={link}
-      target="_blank" // Abre en una nueva pestaña
-      rel="noopener noreferrer" // Mejora la seguridad
-      className="flex overflow-hidden rounded-lg shadow transition hover:shadow-lg" // Mueve la clase a la etiqueta <a>
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex overflow-hidden rounded-lg shadow transition hover:shadow-lg"
     >
       <div className="w-3/6 overflow-hidden">
         <img alt={title} src={imageUrl} className="w-full object-cover" />

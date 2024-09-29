@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 
+import Contact from '@/partials/Contact';
 import Divider from '@/partials/Divider';
 import EducationSection from '@/partials/EducationSection';
 import { Hero } from '@/partials/Hero';
@@ -36,13 +37,15 @@ const jobs = [
   <Divider description="Experience" />
   <EducationSection
   title="Current Role"
-  description="I work as a Fraud Analyst, focusing on identifying and preventing fraudulent activities by analyzing suspicious patterns and behaviors. I collaborate closely with the data modeling team, assisting them in developing rules and patterns based on the cases I evaluate."
+  description="I work as a Fraud Analyst, identifying and preventing fraud by analyzing suspicious patterns. I collaborate with the data modeling team to develop rules based on my evaluations."
   linkText="Learn More About My Work"
   jobs={jobs}
+  companyName='TEUNO'
 />
-
     <Divider description="Projects" />
   <ProjectList />
   <Divider description="Technologies" />
   <Technologies />
+  <Divider description="Contact Me" />
+  <Contact/>
 </Base>

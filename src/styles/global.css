@@ -17,6 +17,8 @@ html {
   background-color: white;
   color: #333333; 
   font-family: 'SFUIDisplay', sans-serif; 
+  scroll-behavior: smooth;
+
 }
 
 body {
